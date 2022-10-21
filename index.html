@@ -1,0 +1,137 @@
+<!doctype html>
+<!--
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+</script>
+<link rel="stylesheet" type="text/css" href="/css/index.css">
+<title>konnyaku小站 主页</title>
+</head>
+<body>
+<script type="text/javascript" language="javascript">
+	function showfriends(){
+		$("#menu_friends_two").show();
+	}
+	function hidefriends(){
+		setTimeout(function(){$("#menu_friends_two").hide();},5000)
+	}
+	function qdmq(){
+		alert("草根站长一枚，穷的没钱，学生党，这个视频放在美国东部的OSS上，速度自然慢，原谅我吧！")
+	}
+</script>
+<div id="head">
+	<div id="menu">
+	<span id="menu_index" class="title">主页</span>
+	<span id="menu_friends_index">
+	<span id="menu_friends" onClick="showfriends()" onDblClick="hidefriends()" onmouseover="showfriends()" onmouseout="hidefriends()" class="title">友情链接</span>
+	<table id="menu_friends_two" style="display:none;">
+	<tr>
+		<td id="menu_friends_two_stationer_website">站长的网站</td>
+	</tr>
+	<tr>
+		<td id="menu_friends_two_stationer_friends_blogs">博客友情链接</td>
+	</tr>
+	<tr>
+		<td id="menu_friends_two_invite_have_a_friend_link">申请友链</td>
+	</tr>
+	</table>
+	</span>
+	</div>
+</div>
+<h1>Hello World!</h1>
+<h1>还没写完呢（尴尬）</h1>
+<video  src="https://videos-faster-ks.oss-ap-southeast-1.aliyuncs.com/hellomc.mp4" controls></video>
+想要原画的联系我(滑稽)
+<script type="text/javascript" language="javascript">
+	
+</script>
+</body>
+</html>
+-->
+<html>
+<head>
+<meta charset="utf-8">
+<title>konnyaku小站-主页</title>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript">
+	function changeurl(change)
+	{
+		switch(change)
+		{
+			case 1:
+				 frame_index.setAttribute("src","http://www.moekonnyaku.com");
+				break;
+			case 2:
+				 frame_index.setAttribute("src","http://www.stevenmhy.tk/");
+				break;
+			case 3:
+				frame_index.setAttribute("src","http://www.moekonnyaku.com/wp-admin");
+				break;
+			case 4:
+				var ems=prompt("您需要进入什么网站?","https://moekonnyaku.com/");
+				frame_index.setAttribute("src",+ems);
+				break;
+			case 5:
+				frame_index.setAttribute("src","http://history.moekonnyaku.com/newer-log.html");
+				break;
+			case 6:
+				frame_index.setAttribute("src","http://history.moekonnyaku.com/history.html");
+				break;
+		}
+		
+	}
+	function getHelper(change)
+	{
+		switch(change)
+		{
+			case 1:
+				
+				break;
+		}
+	}
+</script>
+<div id="menu">
+<div id="top">
+	<h1>Konnyaku小站</h1>
+</div>
+<dl>
+	<dt>主页</dt>
+</dl>
+<dl>
+	<dt>友情链接</dt>
+	<dd>
+		<div id="konnyaku"><a href="#" onClick="changeurl(6)">主页</a></div>
+		<div id="blog_konnyaku"><a href="#" onClick="changeurl(1)">三级的蒟蒻的博客</a></div>
+		<div id="blog_stevenmhy"><a href="#" onClick="changeurl(2)">StevenMengのBlog</a></div>
+		<div id="blog_konnyaku_manage"><a href="#" onClick="changeurl(3)">(仅限三级的蒟蒻)三级的蒟蒻的博客-admin管理</a></div>
+		<div id="newer_logs"><a href="#" onClick="changeurl(5)">开发日志</a></div>
+	</dd>
+	<dt>沙雕功能</dt>
+	<dd>
+		<div id="tools_manage_links"><a href="#" onClick="changeurl(4)">更改链接</a></div>
+	</dd>
+	<dt>帮助</dt>
+	<dd>
+		<div id="help_error_503"><a href="#" onClick="getHelper(1)">出现了503?</a></div>
+	</dd>
+</dl>
+</div>
+<div id="dashboard">
+	<div id="tabs_control">		
+	</div>
+	<div id="frame_control">
+		<iframe id="frame_index" src="http://history.moekonnyaku.com/history.html"></iframe>
+	</div>
+</div>
+<script language="javascript" type="text/javascript">
+	$("#frame_index").css("height",toString(window.outerHeight));
+</script>
+</body>
+</html>
+

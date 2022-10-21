@@ -1,0 +1,70 @@
+.webside_index_h1{
+	font-size:90px;
+	font-family:"consolas";
+}
+.webside_index_h2{
+	font-size:45px;
+	font-family:"微软雅黑";
+}
+.webside_index_h3{
+	font-size:25px;
+	font-family:"幼圆";
+}
+.webside_index_div{
+	font-family:"consolas";
+}
+body{
+	background-color:#06BDC0;
+}
+a:link{
+	color:#005CFF;
+}
+a:visited{
+	color:#005CFF;
+}
+a:hover{
+	color:#005CFF;
+}
+div{
+	color:#3A00FF;
+}
+h1{
+	color:#3A00FF;
+}
+h2{
+	color:#3A00FF;
+}
+li{
+	font-family:"幼圆";
+	color:#3A00FF;
+	margin-left:200px;
+}
+li.title{
+	font-family:"华文彩云";
+	list-style:disc;
+	font-size:90px;
+}
+li.stitle{
+	list-style:square;
+	font-size:60px;
+}
+ul{
+    color:rgb(0, 95, 204);
+    list-style-position: inside;
+}
+li.annotate{
+    color:slateblue;
+    list-style: circle;
+    font-size: 40px;
+    font-style:italic;
+}
+.font{
+	font-family:"华文琥珀";
+	font-size:25px;
+	color:#3A00FF;
+}
+p.copyright{
+	font-family: "华文彩云";
+	font-size:30px;
+	color: #3a00ff;
+}

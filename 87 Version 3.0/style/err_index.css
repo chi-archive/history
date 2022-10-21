@@ -1,0 +1,40 @@
+.webside_update_h1{
+	font-size:90px;
+	font-family:"Consolas";
+}
+.webside_update_h2{
+	font-size:45px;
+	font-family:"微软雅黑";
+}
+.webside_update_h3{
+	font-size:25px;
+	font-family:"幼圆";
+}
+.webside_update_div{
+	font-family:"consolas";
+}
+body{
+	background-color:#06BDC0;
+	margin-top:100px;
+	margin-bottom:100px;
+	margin-right:60px;
+	margin-left:60px;
+}
+a:link{
+	color:#005CFF;
+}
+a:visited{
+	color:#005CFF;
+}
+a:hover{
+	color:#005CFF;
+}
+div{
+	color:#3A00FF;
+}
+h1{
+	color:#3A00FF;
+}
+h2{
+	color:#3A00FF;
+}
